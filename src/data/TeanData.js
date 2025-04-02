@@ -1,5 +1,4 @@
-export const TeamMember = ({ photo, name, role }) => {
-  [
+export const TeamData = [
     {
       photo: "/images/photo1.png",
       name: "Bill Mahoney",
@@ -30,20 +29,4 @@ export const TeamMember = ({ photo, name, role }) => {
       name: "Stan John",
       role: "DEVELOPER",
     }
-  ];
-
-
-return (
-    <>
-        <div key={index}  className="flex flex-col">
-            <figure className="w-full h-60">
-                <img src={photo} alt="" className="w-full h-full object-cover" />
-            </figure>
-            <span className="font-bold text-gray-700 text-xl p-2">{name}</span>
-        </div>
-        <div className="writing-mode-vertical-rl rotate-90 h-40 flex p-1 items-end justify-end">
-            <span className="text-gray-700">{role}</span>
-        </div>
-    </>
-);
-};
+  ]
