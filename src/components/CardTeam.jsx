@@ -1,7 +1,7 @@
 export function CardTeam({ photo, name, role }) {
   return (
-    <div className="relative">
-      <div className="flex ">
+    <div className="relative even:mt-4 md:nth-[3n+2]:mt-4">
+      <div className="flex">
         
         <div className="flex flex-col">
           <figure className="w-full h-60 overflow-hidden">
